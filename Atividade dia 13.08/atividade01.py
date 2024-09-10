@@ -8,6 +8,3 @@ def main():
 
 main()
         
-
-def teste():
-    print("Budega")
