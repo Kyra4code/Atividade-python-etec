@@ -1,11 +1,17 @@
 def main():
-    valor1 = float(input("Insira o primeiro valor: "))
-    valor2 = float(input("Insira o segundo valor: "))
-    valor3 = float(input("Insira o terceiro valor: "))
-    valor4 = float(input("Insira o quarto valor: "))
+    try:
+        print("INSIRA VALORES INFINITAMENTE E QUANDO DIZER CHEGA ESSES NUMEROS SERAO CALCULADOS A MEDIA DELES:")
 
-    calc = (valor1 + valor2 + valor3 + valor4) / 4
+        while True:
+            valor1 = [float(input("Insira o valor: "))]
 
-    print(f"A média desses valores é {calc}")
+            if valor1.lower() == "chega":
+                break
+
+
+        calc = sum(valor1) / len(valor1)
+        print(f"A média desses valores e {calc}")
+    except:
+        print("ERROR!")
 
 main()
