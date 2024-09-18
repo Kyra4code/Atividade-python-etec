@@ -1,6 +1,6 @@
 def main():
-    Brasil = 2150000000
-    china = 1000000000
+    Brasil = 215,000,000
+    china = 1,412,000,000
     if Brasil > china:
         print("Brasil é tem mais")
     elif china > Brasil:
