@@ -19,5 +19,4 @@ def main():
         print(f"A média desses valores e {calc}")
 
 
-
 main()
