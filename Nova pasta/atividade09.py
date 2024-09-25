@@ -2,7 +2,7 @@ def main():
     peso = float(input("insira seu peso: "))
     altura = float(input("Insira sua altura: "))
 
-    IMC = peso + (altura * altura)
+    IMC = peso / (altura * altura)
 
     if IMC <= 16.9:
         print("Você muito abaixo do peso")
@@ -13,6 +13,6 @@ def main():
     elif IMC >= 27 and IMC <= 31.9:
         print("você acima do peso")
     elif IMC >= 32:
-        print("Você é obeso")
+        print("Você é obeso(gordo)")
 
 main()
